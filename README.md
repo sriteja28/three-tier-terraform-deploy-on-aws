@@ -1,6 +1,7 @@
-# three-tier-terraform-deploy-on-aws
-AWS | Terraform | Bash Scripting
+### Three-tier terraform architecture on AWS cloud
+> AWS | Terraform | Bash Scripting
 
+Automated script to create the required terraform folder structure along with the raw content
 ```css
 terraform/
 ├── main.tf
@@ -28,7 +29,6 @@ terraform/
 │   └── ...
 └── ...
 ```
-asas
 
 ```bash
 #!/bin/bash
@@ -359,3 +359,13 @@ EOT
 echo "Directory structure and files created successfully."
 
 ```
+Copy the updated script into a new file, such as create_structure.sh. Save the file and make it executable by running the following command:
+```bash
+chmod +x create_structure.sh
+```
+
+To run the script, use the following command:
+```bash
+./create_structure.sh
+```
+This will create the directory structure and files for the three-tier architecture in the terraform directory, with the respective content for each Terraform file.
