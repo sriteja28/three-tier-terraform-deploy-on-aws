@@ -1,7 +1,7 @@
 ### Three-tier terraform architecture on AWS cloud
 > AWS | Terraform | Bash Scripting
 
-Automated script to create the required terraform folder structure along with the raw content
+Desired terraform folder structure
 ```css
 terraform/
 ├── main.tf
