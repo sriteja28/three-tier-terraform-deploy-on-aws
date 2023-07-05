@@ -1,6 +1,35 @@
 # three-tier-terraform-deploy-on-aws
 AWS | Terraform | Bash Scripting
 
+```css
+terraform/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── providers.tf
+├── backend.tf
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── subnet/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── security_group/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── ec2_instance/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── ...
+└── ...
+```
+asas
+
 ```bash
 #!/bin/bash
 
