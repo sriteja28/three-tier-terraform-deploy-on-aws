@@ -30,7 +30,6 @@ terraform/
 └── ...
 ```
 
-```
 Copy the updated script into a new file, such as create_structure.sh. Save the file and make it executable by running the following command:
 ```bash
 chmod +x create_structure.sh
