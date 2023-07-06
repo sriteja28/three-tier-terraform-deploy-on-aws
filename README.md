@@ -1,7 +1,7 @@
 ### Three-tier terraform architecture on AWS cloud
 > AWS | Terraform | Bash Scripting
 
-![alt text](https://github.com/sriteja28/three-tier-terraform-deploy-on-aws/blob/main/3-tier-prod.drawio.png) 
+![alt text](https://github.com/sriteja28/three-tier-terraform-deploy-on-aws/blob/main/3-tier-prod.drawio_page-0001.jpg) 
 
 Desired terraform folder structure
 ```css
